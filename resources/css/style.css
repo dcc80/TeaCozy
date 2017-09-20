@@ -1,0 +1,189 @@
+
+/*Body Global Style*/
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: Black;
+  opacity: 0.9;
+
+
+}
+
+/*header style*/
+header{
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  background-color: Black;
+
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  margin-left: 10px;
+  height:50px;
+}
+
+a {
+  color:#fff5ee ;
+}
+
+nav li {
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+/*First block */
+
+.firstMainBlock-container {
+  display: flex;
+  justify-content: center;
+}
+
+.firstBlock-container {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+
+}
+
+h2 h4 {
+  display: flex;
+  color: seashell;
+  background-color: Black;
+}
+
+h4 {
+  margin-top:4px;
+}
+
+.middleImage {
+  display: flex;
+  flex-flow: column;
+  height:110px;
+  color: seashell;
+}
+
+#banner {
+  margin:300px 0px 200px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: Black;
+}
+
+/*2nd Block*/
+.secondMainBlock {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.secondBlock-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 1000px;
+
+}
+
+.secondBlock-item {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.imgTea {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+/*3rd Block*/
+
+.thirdMainBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.thirdBlock-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 550px;
+  width: 1200px;
+}
+
+.third-container {
+  display:flex;
+  justify-content: center;
+
+}
+
+.thirdBlock-item {
+  display: flex;
+  text-align: center;
+  margin-top: 45px;
+
+}
+/*inside to include directins style*/
+.directions{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+
+.direction-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 15px;
+  width: 300px;
+  background-color: Black;
+}
+
+.item3 {
+  display: flex;
+}
+
+.locDir {
+  opacity: 1;
+}
+
+/*Footer Style*/
+
+.footer-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#copyright {
+  margin-left: 20px;
+  text-align: left;
+}
